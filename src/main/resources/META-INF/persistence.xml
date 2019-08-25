@@ -7,6 +7,8 @@
 
         <class>persistencia.entitad.ProductoEntity</class>
         <class>persistencia.entitad.GarantiaExtendidaEntity</class>
+        <class>persistencia.entitad.ClienteEntity</class>
+
 
         <properties>
             <!-- Configuring JDBC properties -->

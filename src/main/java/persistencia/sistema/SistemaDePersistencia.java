@@ -2,9 +2,11 @@ package persistencia.sistema;
 
 import javax.persistence.EntityManager;
 
+import dominio.repositorio.RepositorioCliente;
 import dominio.repositorio.RepositorioProducto;
 import dominio.repositorio.RepositorioGarantiaExtendida;
 import persistencia.conexion.ConexionJPA;
+import persistencia.repositorio.RepositorioClientePersistente;
 import persistencia.repositorio.RepositorioProductoPersistente;
 import persistencia.repositorio.RepositorioGarantiaPersistente;
 
@@ -23,6 +25,11 @@ public class SistemaDePersistencia {
 	public RepositorioGarantiaExtendida obtenerRepositorioGarantia() {
 		return new RepositorioGarantiaPersistente(entityManager, this.obtenerRepositorioProductos());
 	}
+
+	public RepositorioCliente obtenerRepositorioClientes() {
+		return new RepositorioClientePersistente(entityManager);
+	}
+
 
 	public void iniciar() {
 		entityManager.getTransaction().begin();

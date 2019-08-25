@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="241e69cc-96a5-46fd-97e1-90d94c0b46f9" name="Default Changelist" comment="" />
+    <list default="true" id="241e69cc-96a5-46fd-97e1-90d94c0b46f9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dominio/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dominio/Contansts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dominio/repositorio/RepositorioCliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/persistencia/builder/ClienteBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/persistencia/entitad/ClienteEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/persistencia/repositorio/jpa/RepositorioClienteJPA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testdatabuilder/GarantiaExtendiaTestDataBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominio/Vendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominio/Vendedor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominio/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominio/utils/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/persistencia/sistema/SistemaDePersistencia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/persistencia/sistema/SistemaDePersistencia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dominio/integracion/VendedorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dominio/integracion/VendedorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dominio/unitaria/VendedorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dominio/unitaria/VendedorTest.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +45,16 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="dominio" />
+      <recent name="testdatabuilder" />
+      <recent name="persistencia.builder" />
+      <recent name="persistencia.repositorio.jpa" />
+      <recent name="persistencia.repositorio" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -105,7 +130,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -116,8 +143,23 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/dominio/Vendedor.java</url>
-          <line>25</line>
+          <line>27</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dominio/Vendedor.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dominio/Vendedor.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dominio/Vendedor.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
