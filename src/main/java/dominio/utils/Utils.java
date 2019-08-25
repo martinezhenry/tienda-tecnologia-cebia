@@ -14,7 +14,7 @@ public class Utils {
 
 
     /**
-     * Metodo para contar la cantidad de vocales que tiene una cadena de caracteres
+     * Permite contar la cantidad de vocales que tiene una cadena de caracteres
      * @param s Cadena de caracteres a evaluar
      * @return Integer Cantidad de vocales encontradas en la cadena
      */
@@ -31,6 +31,13 @@ public class Utils {
 
     }
 
+    /**
+     * Permite agregar dias a una fecha & omite los dias de la semana que se le indiquen
+     * @param initialDate fecha a la que se le sumaran los dias
+     * @param days cantidad de dias a sumar
+     * @param diasNoHabil lista de dias de la semana que no seran considerados en la suma
+     * @return Date
+     */
     public static Date addDays(Date initialDate, int days, List<Integer> diasNoHabil) {
 
         Calendar calendar = Calendar.getInstance();

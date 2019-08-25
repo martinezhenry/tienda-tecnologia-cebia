@@ -4,8 +4,6 @@ import dominio.excepcion.GarantiaExtendidaException;
 import dominio.repositorio.RepositorioProducto;
 import dominio.repositorio.RepositorioGarantiaExtendida;
 import dominio.utils.Utils;
-
-import java.util.Calendar;
 import java.util.Date;
 
 public class Vendedor {
@@ -25,7 +23,8 @@ public class Vendedor {
 
     public void generarGarantia(String codigo, String nombreCliente) {
 
-        if (Validator.validateProductCode(codigo)) throw new GarantiaExtendidaException(EL_PRODUCTO_NO_GARANTIA);
+
+        if (validarProducto(codigo)) throw new GarantiaExtendidaException(EL_PRODUCTO_NO_GARANTIA);
         if (tieneGarantia(codigo)) throw new GarantiaExtendidaException(EL_PRODUCTO_TIENE_GARANTIA);
 
         // buscar producto por codigo

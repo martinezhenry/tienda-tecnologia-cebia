@@ -8,12 +8,12 @@ import java.util.List;
 public interface AppConfig {
 
 
-    public static int porcentajeGarantiaA = 10;
-    public static int porcentajeGarantiaB = 20;
-    public static int diasGarantiaA = 100;
-    public static int diasGarantiaB = 200;
-    public static List<Integer> diasAOmitir = Arrays.asList(Calendar.MONDAY);
-    public static double montoMaxGarantiaA = 500000.00;
-    public int numMaxVocales = 3;
+    int porcentajeGarantiaA = 10;
+    int porcentajeGarantiaB = 20;
+    int diasGarantiaA = 100;
+    int diasGarantiaB = 200;
+    List<Integer> diasAOmitir = Arrays.asList(Calendar.MONDAY);
+    double montoMaxGarantiaA = 500000.00;
+    int numMaxVocales = 3;
 
 }
