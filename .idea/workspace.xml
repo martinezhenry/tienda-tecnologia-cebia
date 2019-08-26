@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="241e69cc-96a5-46fd-97e1-90d94c0b46f9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dominio/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominio/Contansts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominio/Vendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominio/Vendedor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dominio/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominio/utils/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/persistencia/entitad/GarantiaExtendidaEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/persistencia/entitad/GarantiaExtendidaEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/persistencia/repositorio/RepositorioGarantiaPersistente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/persistencia/repositorio/RepositorioGarantiaPersistente.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +35,7 @@
   <component name="ProjectId" id="1PtADVhckqL67T9OQKLcyTjaZMA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -129,23 +137,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/dominio/Vendedor.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="1" />
+          <line>133</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/dominio/Vendedor.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/dominio/Vendedor.java</url>
-          <line>92</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/dominio/Vendedor.java</url>
-          <line>107</line>
-          <option name="timeStamp" value="7" />
+          <url>file://$PROJECT_DIR$/src/main/java/dominio/utils/Utils.java</url>
+          <line>98</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
